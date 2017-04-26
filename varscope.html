@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Scope of variable</title>
+    <script type="text/javascript">
+        var number = 200;
+        function demo(){
+            var number = 100; //local
+            document.write(number);
+        }
+        demo();
+        document.write(number);//prints global
+    </script>
 </head>
 <body>
-$END$
+
 </body>
 </html>
