@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Challenge</title>
+    <script type="text/javascript">
+        var car = {"name":"Audi", "seat":2,"colour":"White", "state":"Stopped"};
+        car.name = "Honda";
+        document.write(car.name); //object value changed
+
+
+        function display(){
+            document.write("Hi There!");
+
+        }
+        function  changeState() {
+            car.state = "Started";
+            document.write(car.state);
+        }
+
+    </script>
+   <!-- <button onclick="changeState()">Change State</button> -->
+</head>
+<body>
+
+<button onclick="display()">Click Here</button>
+<button onclick="changeState()">Change State</button>
+
+</body>
+</html>
