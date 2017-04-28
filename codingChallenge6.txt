@@ -1,0 +1,8 @@
+Task 1: Consider the code var x = "10" var y=20, add the above two variables.
+
+
+Task 2: Declare an array of your 5 favorite fruits and list out the 2nd fruit in the array.
+
+Task 3: Add an additional fruit into the current list.
+
+Task 4: Remove the last element from the list.
