@@ -1,0 +1,9 @@
+Task 1: Write JS code to display a message "we are "The gems" of this century".
+
+
+
+Task 2: Calculate the length of the above string and display it in the document.
+
+
+
+Task 3: Convert the above string into an uppercase string.
