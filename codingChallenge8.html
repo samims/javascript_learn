@@ -1,0 +1,30 @@
+<!--
+Lets assume you need to write simple js code to check if the product
+ belongs to electronic category or has price greater than 100$,
+if so then you want to offer a 10% discount to the user.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>challenge</title>
+    <script type="text/javascript">
+        var products = {
+            "name":"laptop",
+            "category":"Electronics",
+            "price":100
+        };
+        if(products.category == "Electronics" && products.price>100){
+            document.write("You are getting 10% discount and you have to pay " + "<br>");
+            document.write(products.price-products.price*(10/100));
+
+        }
+        else{
+            document.write("You don't have any discount, please pay "+products.price)
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
