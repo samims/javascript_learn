@@ -1,0 +1,33 @@
+<!-- Consider you want to accept a 10 digit number from
+ a user. Use exception handling in a way that the number
+ entered by the user is exactly 10 digits or throw your own
+ exception.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        var a  = 012945678;
+        try{
+            if(a.length!=10){
+                throw("Not 10 digit");
+            }
+            else{
+                document.write("This is 10 digit code.");
+            }
+        }
+        catch(e){
+            alert("Error "+e);
+        }
+        finally {
+            document.write("This code will run every time.");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
