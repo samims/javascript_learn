@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Child</title>
+</head>
+<body>
+    <div id = "div1">
+        <p id = "para1">This is first para</p>
+    </div>
+
+    <script type = "text/javascript">
+        var para2 = document.createElement("p");
+        var para2Text = document.createTextNode("This para created By JavaScript");
+
+        para2.appendChild(para2Text);
+
+        var x = document.getElementById("div1");
+        x.appendChild(para2);
+    </script>
+
+</body>
+</html>

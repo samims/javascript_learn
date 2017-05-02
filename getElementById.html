@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML DOM</title>
+</head>
+<body>
+    <h1 onClick="this.innerHTML= 'You clicked here'">Click here</h1>
+    <h2 onclick="this.style.color='green'">Click here too</h2>
+    <p id = "pr"></p>
+    <p id = "ss"></p>
+    <script type="text/javascript">
+        document.getElementById("pr").innerHTML="This is a paragraph";
+        document.getElementById("pr").style.color ="red";
+
+         document.getElementsByTagName("p")[1].innerHTML="This is second Paragraph";
+    </script>
+</body>
+</html>

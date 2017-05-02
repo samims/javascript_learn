@@ -1,0 +1,28 @@
+<!--
+Create a text input a label with default text and a button, the label text
+ should change to text specified in the textbox when user clicks the
+ button.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Challenge</title>
+
+</head>
+<body>
+
+    <p>
+        <label id = "l"> Hey Dude</label>
+        <input type="text" id="frm"  placeholder="Enter Text" > </input>
+        <button onclick="changeText()">click Here</button>
+    </p>
+
+    <script type="text/javascript">
+        function changeText(){
+            document.getElementById("l").innerHTML = document.getElementById("frm").value;
+        }
+    </script>
+
+</body>
+</html>
